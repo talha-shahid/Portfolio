@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    background-color: pink;
+}
+
+.sidebar{
+    background-color: rgb(176, 131, 185);
+    height: 100vh;
+    width: 200px;
+}
+.sidebar li{
+    font-size: 32px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    padding:13px 35px;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: rgb(182, 92, 182); */
+    width: 100vw;
+    height: 100vh;
+}
+.infoContainer{
+    /* background-color: rgb(153, 51, 59); */
+    width: 50vw;
+    margin: 144px auto;
+    display: flex;
+    height: 40vh;
+    padding: 30px;
+    margin-left: 10vw;
+    justify-content: space-around;
+}
+.intro{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 50px;
+}
+.name{
+    font-size: 40px;
+    font-weight:600;
+}
+.about{
+    font-size: 25px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding:9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: royalblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.devPic img{
+    height: 30vh;
+    border-radius: 100px;
+    /* margin-left: 2vw; */
+}
+
+.contactform{
+    padding: 200px 150px;
+}
+.form-group{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#emailHelp{
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.form-group input{
+    width: 350px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.btn-primary{
+    padding:5px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: royalblue;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
