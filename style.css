@@ -225,3 +225,58 @@ button:hover{
     margin: 0px 3px;
     cursor: pointer;
 }
+.social{
+    position: relative;
+}
+.twitter{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right:5px;
+    top: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    /* margin-top: 2px; */
+}
+.twitter:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
+    transform: scale(1.1,1.1);
+}
+
+.github{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right:5px;
+    top: 55px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    /* margin-top: 2px; */
+
+}
+.github:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
+    transform: scale(1.1,1.1);
+}
+
+#sound{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right:2vw;
+    top: 93vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    /* margin-top: 2px; */
+
+}
+#sound:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
+    transform: scale(1.1,1.1);
+}

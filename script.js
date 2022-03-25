@@ -15,3 +15,22 @@ document.querySelector('.icons').addEventListener('click', ()=>{
 
     }
 })
+
+
+audio=new Audio("parasthesia.mp3");
+let sound= document.getElementById("sound");
+
+sound.addEventListener("click",()=>{
+    if (audio.duration > 0 && !audio.paused) {
+
+        //Its playing...do your job
+        audio.pause();
+        sound.src="nosound.png";
+    
+    } else {
+    
+        //Not playing...maybe paused, stopped or never played.
+        audio.play();
+        sound.src="sound.png";
+    }
+})
