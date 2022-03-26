@@ -181,6 +181,7 @@ button:hover{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
 }
 .devPic img{
+    position: relative;
     height: 30vh;
     border-radius: 8px;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.411);
@@ -279,4 +280,40 @@ button:hover{
 #sound:hover{
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
     transform: scale(1.1,1.1);
+}
+
+.pepe{
+    /* transition: all 0.2s ease-in; */
+    /* height: 100px; */
+    /* background-color: red; */
+    position: absolute;
+    top: 75vh;
+    right: 8vw;
+    width: 200px;
+
+}
+
+#pepe2{
+    position: absolute;
+    top:0vh;
+    right: 8vw;
+    width: 200px;
+    
+}
+
+#peter{
+    position: absolute;
+    top:77vh;
+    right:77vw;
+    /* width: 200px; */
+    height: 200px;
+    
+}
+
+.mystyle{
+    transform: scale(1.1,1.1);
+    background-image: linear-gradient(to bottom right, rgb(236, 102, 236), rgba(138, 20, 102, 0.671), rgb(135, 214, 31));
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.411);
+
 }
