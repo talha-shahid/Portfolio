@@ -127,7 +127,7 @@
     background-color: rgba(173, 62, 140, 0.562);
     border: 1px solid rgba(0, 0, 0, 0.137);
     border-radius: 10px;
-    width: 50vw;
+    width: 60vw;
     margin: 144px auto;
     display: flex;
     height: 40vh;
@@ -316,4 +316,34 @@ button:hover{
     border: 1px solid rgba(0, 0, 0, 0.445);
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.411);
 
+}
+
+@media screen and (max-width:555px){
+    .infoContainer{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width:1196px){
+    .devPic img{
+        height:20vh;
+
+    }
+}
+
+@media screen and (max-width: 688px){
+    .buttons{
+        display: flex;
+    }
+    .buttons button{
+        padding:6px 6px;
+        font-size: 15px;
+    }
+    .about{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 30px;
+        font-weight:600;
+    }
 }

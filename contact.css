@@ -1,0 +1,37 @@
+.contactform{
+    height: 350px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 600px;
+    background-image: linear-gradient(to bottom right, rgb(236, 102, 236), rgba(138, 20, 102, 0.671), rgb(135, 214, 31));
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+
+}
+#form{
+    position: relative;
+    top: -51px;
+}
+
+#newBtn{
+    background-image: linear-gradient(to right, violet,rgb(135, 214, 31));
+    padding:9px 14px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.849);
+    font-weight:500;
+    font-size: 19px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+#newBtn:hover{
+    background-image: linear-gradient(to right, rgb(196, 16, 196),rgb(112, 187, 14));
+    color: white;
+    /* transform: rotate(1deg); */
+    /* transform: skew(1deg,1deg); */
+    font-weight: 400;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.411);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+}
